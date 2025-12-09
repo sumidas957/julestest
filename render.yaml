@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: buggy-test-app
+    env: node
+    buildCommand: npm run biuld
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
