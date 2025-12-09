@@ -1,0 +1,16 @@
+{
+  "name": "buggy-render-deploy",
+  "version": "1.0.0",
+  "description": "Test app with deployment bugs for Jules",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
